@@ -1,6 +1,9 @@
  var typed =new Typed('#element',{
             strings :['Web Developer.','Web Designer.','Frontend developer.'],
             typeSpeed: 50,
+             backSpeed: 50,
+            backDelay: 1000,
+            loop: true
         });
 
          setTimeout(function() {
