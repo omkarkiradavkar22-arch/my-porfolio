@@ -323,15 +323,26 @@
         margin: 10px auto;
         font-size: 1.5rem;
     }
+    #proj:hover{
+        width: 90%;
+        margin: 10px auto;
+        font-size: 1.5rem;
+    }
 
-    #proj p{
+    #proj,p{
         font-size: 1rem;
     }
 
     /* Contact */
     .con{
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 10px;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+    .btn:hover{
+        font-size: 1rem;
     }
 
 }
